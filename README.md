@@ -29,24 +29,32 @@ Admins can:
 
 ## 🚀 Features
 
-### ✅ User-Side
-- 🔍 **AI Car Search** (by uploading an image)
-- 🛒 Wishlist cars
-- 📅 Test drive booking
-- 🧮 EMI calculation
-- 🔧 Advanced filters (brand, price range, body type, fuel, transmission)
-- ↕️ Sorting (price low-high, high-low, newest)
-- 📄 Car detail pages
-- 📑 Pagination
-- 🧲 Drag-and-drop image upload support (Dropbox-style)
+### User-Facing Features
 
-### ⚙️ Admin Dashboard
-- ➕ Add car (manual or AI image-based form autofill)
-- 🛠 Manage car listings (status change, delete, mark sold)
-- 📋 View & manage test drive requests
-- 🕒 Schedule dealership timings
-- 👥 Manage admins (create/remove)
-- 📊 Dealership overview & analytics
+* **AI Car Search (Image Upload):** 📸 Discover cars by simply uploading an image – our AI will identify and help you find similar vehicles.
+* **Comprehensive Search & Filtering:** 🔍
+    * **Advanced Filters:** Refine your search by Price Range 💰, Make, Body Type 🚙, Fuel Type ⛽, Transmission.
+    * **Sorting Options:** Sort results by Price (Low to High, High to Low) ⬆️⬇️, Newest First ✨.
+    * **Pagination:** Seamlessly browse through extensive car listings 📄.
+* **Detailed Car Pages:** 📄 Dedicated pages for each car with comprehensive information, images, and specifications.
+* **Wishlist:** ❤️ Save your favorite cars for quick access and comparison.
+* **Test Drive Booking:** 📅 Easily schedule test drives for desired vehicles.
+* **EMI Calculation:** 셈 Estimate monthly installments for cars directly on the platform.
+* **Dealership Information:** 📍 Access details about "Evergreen Motors" (current operating dealership).
+
+### Admin Dashboard Features
+
+* **Car Management:** 🚗
+    * **AI Car Upload (Drag & Drop):** 🤖➕ Add new cars by simply dragging and dropping an image; AI will automatically pre-fill car details.
+    * **Manual Car Addition:** ✍️ Manually enter comprehensive details for new car listings.
+    * **Status Management:** ✅ Change car status (Available, Unavailable, Mark as Sold).
+    * **Delete Car:** 🗑️ Remove car listings from the platform.
+* **Test Drive Request Management:** 🗓️
+    * View and manage incoming test drive requests.
+    * Confirm or Reject test drive appointments.
+* **Dealership Schedule & Working Hours:** ⏰ Update and manage the dealership's operating hours and schedule.
+* **Admin Role Management:** 👤🛡️ Create or remove other admin users.
+* **Analytics & Overview:** 📊 Gain insights into dealership performance and website activity.
 
 ---
 
@@ -88,7 +96,7 @@ Before you begin, ensure you have the following installed and accounts set up:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/Akshat090803/Intelli-Wheels.git](https://github.com/Akshat090803/Intelli-Wheels.git)
+    git clone https://github.com/Akshat090803/Intelli-Wheels.git
     cd Intelli-Wheels
     ```
 2.  **Install NPM packages:**
@@ -140,3 +148,22 @@ Before you begin, ensure you have the following installed and accounts set up:
 
 ---
 
+## 🤝 Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
