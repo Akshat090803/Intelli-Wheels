@@ -7,11 +7,11 @@ Intelli Wheels is a sophisticated full-stack web application that redefines the 
 
 ## 🔐 Demo Login Credentials
 
-**👤 Admin Account**
+### 👤 Admin Account
 - Email: admin@example.com
 - Password: Admin@intelliwheels
 
-**🙋‍♂️ Test User Account**
+### 🙋‍♂️ Test User Account
 - Email: user@example.com
 - Password: User@intelliwheels
 
