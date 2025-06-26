@@ -3,6 +3,16 @@
 **AI-Powered Car Marketplace**  
 Intelli Wheels is a sophisticated full-stack web application that redefines the car buying and selling experience through intelligent AI enhancements and a user-friendly interface. Initially developed to power the operations of "Evergreen Motors," this project is designed with future scalability in mind to accommodate multiple dealerships.
 
+---
+
+## 🔐 Admin Demo Credentials
+
+To explore the Admin Dashboard, use the following demo credentials:
+
+- 📧 **Email:** admin@example.com  
+- 🔑 **Password:** Admin@intelliwheels
+
+⬆️ Use the above credentials to explore the admin dashboard features.
 
 ---
 
@@ -55,17 +65,6 @@ Admins can:
 * **Dealership Schedule & Working Hours:** ⏰ Update and manage the dealership's operating hours and schedule.
 * **Admin Role Management:** 👤🛡️ Create or remove other admin users.
 * **Analytics & Overview:** 📊 Gain insights into dealership performance and website activity.
-
----
-
-## 🔐 Admin Demo Credentials
-
-To explore the Admin Dashboard, use the following demo credentials:
-
-- 📧 **Email:** admin@example.com  
-- 🔑 **Password:** Admin@intelliwheels
-
-⚠️ *These credentials are for demonstration purposes only and should not be used in production.*
 
 ---
 
