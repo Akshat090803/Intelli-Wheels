@@ -58,6 +58,17 @@ Admins can:
 
 ---
 
+## 🔐 Admin Demo Credentials
+
+To explore the Admin Dashboard, use the following demo credentials:
+
+- 📧 **Email:** admin@example.com  
+- 🔑 **Password:** Admin@intelliwheels
+
+⚠️ *These credentials are for demonstration purposes only and should not be used in production.*
+
+---
+
 ## 🛠️ Technologies Used
 
 * **Frontend:**
