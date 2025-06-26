@@ -5,14 +5,17 @@ Intelli Wheels is a sophisticated full-stack web application that redefines the 
 
 ---
 
-## 🔐 Admin Demo Credentials
+## 🔐 Demo Login Credentials
 
-To explore the Admin Dashboard, use the following demo credentials:
+### 👤 Admin Account
+- Email: admin@example.com
+- Password: Admin@intelliwheels
 
-- 📧 **Email:** admin@example.com  
-- 🔑 **Password:** Admin@intelliwheels
+### 🙋‍♂️ Test User Account
+- Email: user@example.com
+- Password: User@intelliwheels
 
-⬆️ Use the above credentials to explore the admin dashboard features.
+⬆️ Use the above credentials to explore the features.
 
 ---
 
