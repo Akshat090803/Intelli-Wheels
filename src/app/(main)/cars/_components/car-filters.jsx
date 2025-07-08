@@ -2,7 +2,7 @@
 
 import { useCallback, useState, useEffect } from "react";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
-import { Filter, X, Sliders } from "lucide-react";
+import { Filter, X, Sliders, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -26,6 +26,7 @@ export const CarFilters = ({ filters }) => {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
+
 
   // Get current filter values from searchParams
   const currentMake = searchParams.get("make") || "";
@@ -51,7 +52,7 @@ export const CarFilters = ({ filters }) => {
   ]);
   const [sortBy, setSortBy] = useState(currentSortBy);
   const [isSheetOpen, setIsSheetOpen] = useState(false);
-
+  const [loading,setLoading]=useState(false)
   // Update local state when URL parameters change
   useEffect(() => {
     setMake(currentMake);
@@ -82,6 +83,8 @@ export const CarFilters = ({ filters }) => {
 
   // Update URL when filters change
   const applyFilters = useCallback(() => {
+    
+    setLoading(true);
     const params = new URLSearchParams();
 
     if (make) params.set("make", make);
@@ -102,7 +105,7 @@ export const CarFilters = ({ filters }) => {
 
     const query = params.toString();
     const url = query ? `${pathname}?${query}` : pathname;
-
+     setLoading(false);
     router.push(url);
     setIsSheetOpen(false);
   }, [
@@ -283,8 +286,13 @@ export const CarFilters = ({ filters }) => {
           </div>
 
           <div className="px-4 py-4 border-t ">
-            <Button onClick={applyFilters} className="w-full cursor-pointer">
-              Apply Filters
+            <Button disabled={loading}   onClick={applyFilters} className="w-full cursor-pointer" >
+               {(loading)?(
+                              <>
+                              <Loader2 className="h-4 w-4 animate-spin"/>
+                              Applying...
+                              </>
+                            ) :'Apply Filters'}
             </Button>
           </div>
         </div>
