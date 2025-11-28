@@ -26,7 +26,7 @@ export async function processImageWithAi(file){
     }
 
     const genAi=new GoogleGenerativeAI(process.env.GEMINI_API_KEY)
-    const model=genAi.getGenerativeModel({model:"gemini-2.5-flash-lite-preview-06-17"})
+    const model=genAi.getGenerativeModel({model:"gemini-2.5-flash-lite"})
 
     //convert file to base64 
     const base64Image= await fileToBase64(file)
